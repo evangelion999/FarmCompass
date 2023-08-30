@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Диакомит</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    
+    <header class="header position-relative">
+        <div class="header__content-wrap position-relative">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center position-relative">
+                    <a href="/index.html" class="logo">
+                        <img src="/img/logo.svg" alt="Лого" width="189">
+                    </a>
+                    <nav class="menu position-absolute translate-middle-x d-none d-lg-block">
+                        <ul class="d-flex">
+                            <li><a href="#" class="menu__item-link text-decoration-none text-uppercase">О нас</a></li>
+                            <li><a href="#" class="menu__item-link text-decoration-none text-uppercase">Услуги</a></li>
+                            <li><a href="#" class="menu__item-link text-decoration-none text-uppercase">Наши клиенты</a></li>
+                            <li><a href="#" class="menu__item-link text-decoration-none text-uppercase">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__btns d-flex">
+                        <button class="header__search-btn rounded-circle border-0">
+                            <img src="/img/search.svg" alt="">
+                        </button>
+                        <button class="header__translate-btn rounded-circle border-0">RU</button>
+                        <button class="header__burger-btn rounded-circle border-0 d-lg-none" data-bs-toggle="collapse" data-bs-target="#mob-menu" aria-expanded="false" aria-controls="collapseExample">
+                            <img src="/img/burger.svg" alt="" width="25">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="breadcrumbs">
+            <div class="container">
+                <div class="d-flex align-items-center">
+                    <a href="/index.html" class="breadcrumbs__link d-flex"><img src="/img/home.svg" alt=""></a>
+                    <a href="#" class="breadcrumbs__link text-decoration-none">- Услуги</a>
+                    <a href="#" class="breadcrumbs__link text-decoration-none">- Диакомит</a>
+                </div>
+            </div>
+        </div>
+        <div class="compass-icon position-absolute translate-middle d-flex align-items-center justify-content-center">
+            <img src="/img/compass.svg" alt="">
+        </div>
+    </header>
+    
+    <div class="mob-popup collapse" id="mob-menu">
+        <nav class="menu">
+            <ul>
+                <li><a href="#" class="menu__item-link text-decoration-none text-uppercase">О нас</a></li>
+                <li><a href="#" class="menu__item-link text-decoration-none text-uppercase">Услуги</a></li>
+                <li><a href="#" class="menu__item-link text-decoration-none text-uppercase">Наши клиенты</a></li>
+                <li><a href="#" class="menu__item-link text-decoration-none text-uppercase">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <div class="product-slider position-relative">
+            <div class="compass-icon position-absolute translate-middle d-flex align-items-center justify-content-center">
+                <img src="/img/compass.svg" alt="">
+            </div>
+
+            <div class="container">
+                <h1 class="product-slider__title title1">Диакомит</h1>
+            
+                <div class="row">
+                    <div class="col-lg-7 d-flex justify-content-center justify-content-lg-start">
+                        <div class="product-slider__thumbs swiper z-3">
+                            <div class="swiper-wrapper">
+                                <div class="product-slider__thumb swiper-slide">
+                                    <img src="/img/diacomit1.png" alt="">
+                                </div>
+                                <div class="product-slider__thumb swiper-slide">
+                                    <img src="/img/diacomit1.png" alt="">
+                                </div>
+                                <div class="product-slider__thumb swiper-slide">
+                                    <img src="/img/diacomit1.png" alt="">
+                                </div>
+                                <div class="product-slider__thumb swiper-slide">
+                                    <img src="/img/diacomit1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-slider__swiper swiper">
+                            <div class="swiper-wrapper">
+                                <div class="product-slider__slide swiper-slide">
+                                    <img src="/img/diacomit1.png" alt="">
+                                </div>
+                                <div class="product-slider__slide swiper-slide">
+                                    <img src="/img/diacomit1.png" alt="">
+                                </div>
+                                <div class="product-slider__slide swiper-slide">
+                                    <img src="/img/diacomit1.png" alt="">
+                                </div>
+                                <div class="product-slider__slide swiper-slide">
+                                    <img src="/img/diacomit1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev rounded-circle d-flex align-items-center justify-content-center">
+                                <img src="/img/arrow.svg" alt="">
+                            </div>
+                            <div class="swiper-button-next rounded-circle d-flex align-items-center justify-content-center">
+                                <img src="/img/arrow.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="product-slider__descr-block text-white">
+                            <ul class="product-slider__descr-list">
+                                <li class="product-slider__descr-item">
+                                    <p class="text-uppercase">Дозировка:</p>
+                                    <p>250 мг и 500 мг</p>
+                                </li>
+                                <li class="product-slider__descr-item">
+                                    <p class="text-uppercase">Лекарственная форма:</p>
+                                    <p>Капсулы</p>
+                                </li>
+                                <li class="product-slider__descr-item">
+                                    <p class="text-uppercase">Форма выпуска:</p>
+                                    <p>60 капсул</p>
+                                </li>
+                                <li class="product-slider__descr-item">
+                                    <p class="text-uppercase">Производитель:</p>
+                                    <p>Биокодекс</p>
+                                </li>
+                                <li class="product-slider__descr-item">
+                                    <p class="text-uppercase">Применение:</p>
+                                    <p>Противоэпилептический препарат</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-descr position-relative">
+            <div class="compass-icon position-absolute translate-middle d-flex align-items-center justify-content-center">
+                <img src="/img/compass.svg" alt="">
+            </div>
+            
+            <div class="container">
+                <h2 class="title2">Описание препарата</h2>
+
+                <div class="product-descr__accordion accordion" id="productAccordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Что такое Diacomit?
+                            </button>
+                        </div>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                            <div class="product-descr__accordion-body accordion-body">
+                                <p>Diacomit является противоэпилептическим препаратом. Он показан детям с очень редкой формой эпилепсии, называемой «тяжелой миоклонической эпилепсией детства» (EMSI), также известной как синдром Драве. Этот тип эпилепсии поражает маленьких детей.</p>
+                                <p>Диакомит показан в качестве дополнительной терапии клобазамом и вальпроатом (другими противоэпилептическими препаратами) при лечении тонико-клонических приступов (наиболее серьезных кризисов, при которых наблюдается потеря сознания), которые нельзя адекватно контролировать с помощью клобазама и вальпроата.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                Для чего используется Diacomit?
+                            </button>
+                        </div>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                            <div class="product-descr__accordion-body accordion-body">
+                                <p>Diacomit является противоэпилептическим препаратом. Он показан детям с очень редкой формой эпилепсии, называемой «тяжелой миоклонической эпилепсией детства» (EMSI), также известной как синдром Драве. Этот тип эпилепсии поражает маленьких детей.</p>
+                                <p>Диакомит показан в качестве дополнительной терапии клобазамом и вальпроатом (другими противоэпилептическими препаратами) при лечении тонико-клонических приступов (наиболее серьезных кризисов, при которых наблюдается потеря сознания), которые нельзя адекватно контролировать с помощью клобазама и вальпроата.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                Как работает Diacomit?
+                            </button>
+                        </div>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                            <div class="product-descr__accordion-body accordion-body">
+                                <p>Diacomit является противоэпилептическим препаратом. Он показан детям с очень редкой формой эпилепсии, называемой «тяжелой миоклонической эпилепсией детства» (EMSI), также известной как синдром Драве. Этот тип эпилепсии поражает маленьких детей.</p>
+                                <p>Диакомит показан в качестве дополнительной терапии клобазамом и вальпроатом (другими противоэпилептическими препаратами) при лечении тонико-клонических приступов (наиболее серьезных кризисов, при которых наблюдается потеря сознания), которые нельзя адекватно контролировать с помощью клобазама и вальпроата.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                Другая информация о Diacomit
+                            </button>
+                        </div>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                            <div class="product-descr__accordion-body accordion-body">
+                                <p>Diacomit является противоэпилептическим препаратом. Он показан детям с очень редкой формой эпилепсии, называемой «тяжелой миоклонической эпилепсией детства» (EMSI), также известной как синдром Драве. Этот тип эпилепсии поражает маленьких детей.</p>
+                                <p>Диакомит показан в качестве дополнительной терапии клобазамом и вальпроатом (другими противоэпилептическими препаратами) при лечении тонико-клонических приступов (наиболее серьезных кризисов, при которых наблюдается потеря сознания), которые нельзя адекватно контролировать с помощью клобазама и вальпроата.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-on-die d-flex align-items-center position-relative flex-column flex-lg-row">
+                    <img src="/img/download.svg" alt="" class="text-on-die__icon">
+                    <a href="#" class="text-white text-uppercase"><span>Инструкция по применению</span></a>
+                    <img src="/img/download.svg" alt="" class="text-on-die__icon">
+                    <a href="#" class="text-white text-uppercase"><span>Прайс на все препараты</span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form position-relative z-3">
+            <div class="contact-form__content-wrap overflow-hidden position-relative">
+                <img src="/img/compass.svg" alt="" class="contact-form__img position-absolute" width="260">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 d-flex flex-column">
+                            <h2 class="contact-form__title title2 text-start">Заказать препарат</h2>
+                            <p class="text1 text-start">Заполните данную форму</p>
+                            <p class="contact-form__agree-text">Нажимая на кнопку “Отправить” вы соглашаетесь с обработкой персональных данных и с <a href="#">политикой конфиденциальности</a></p>
+                        </div>
+    
+                        <div class="col-lg-7">
+                            <form action="">
+                                <div class="row">
+                                    <div class="contact-form__col col-sm-6 d-flex flex-column">
+                                        <div class="contact-form__field position-relative _quantity">
+                                            <input type="text" placeholder="Количество">
+                                        </div>
+                                        <div class="contact-form__field position-relative _email">
+                                            <input type="email" placeholder="Email *">
+                                        </div>
+                                        <div class="contact-form__field position-relative _organiz">
+                                            <input type="text" placeholder="Название организации *">
+                                        </div>
+                                    </div>
+                                    <div class="contact-form__col col-sm-6 d-flex flex-column">
+                                        <div class="contact-form__field position-relative _message">
+                                            <textarea placeholder="Комментарий"></textarea>
+                                        </div>
+                                        <button type="submit" class="contact-form__btn btn text-uppercase">Заказать</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__die position-relative z-3">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between flex-column flex-lg-row position-relative">
+                    <a href="#" class="footer__link text-white text-decoration-none">Политика конфиденциальности</a>
+                    <a href="/index.html" class="logo position-absolute translate-middle-x">
+                        <svg width="177" height="33" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M107.68 26V8.72h2.268l6.264 12.996L122.44 8.72h2.292v17.268h-2.376v-11.82L116.776 26h-1.14l-5.592-11.832V26h-2.364Zm20.414 0V8.72h13.74V26h-2.508V11.084h-8.724V26h-2.508Zm15.909 0 5.616-17.28h3.612L158.847 26h-2.604l-5.172-15.768h.648L146.607 26h-2.604Zm2.916-3.9v-2.352h9.024V22.1h-9.024Zm20.825 4.26c-1.728 0-3.2-.376-4.416-1.128-1.216-.76-2.148-1.816-2.796-3.168-.64-1.352-.96-2.92-.96-4.704 0-1.784.32-3.352.96-4.704.648-1.352 1.58-2.404 2.796-3.156 1.216-.76 2.688-1.14 4.416-1.14 1.992 0 3.64.504 4.944 1.512 1.312 1.008 2.224 2.364 2.736 4.068l-2.544.684c-.336-1.208-.936-2.156-1.8-2.844-.856-.688-1.968-1.032-3.336-1.032-1.224 0-2.244.276-3.06.828-.816.552-1.432 1.324-1.848 2.316-.408.992-.612 2.148-.612 3.468-.008 1.32.192 2.476.6 3.468.416.992 1.032 1.764 1.848 2.316.824.552 1.848.828 3.072.828 1.368 0 2.48-.344 3.336-1.032.864-.696 1.464-1.644 1.8-2.844l2.544.684c-.512 1.704-1.424 3.06-2.736 4.068-1.304 1.008-2.952 1.512-4.944 1.512ZM95 7c-5.52 0-10 4.48-10 10s4.48 10 10 10 10-4.48 10-10-4.48-10-10-10Zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8Zm-5.5-2.5 7.51-3.49 3.49-7.51-7.51 3.49-3.49 7.51Zm5.5-6.6c.61 0 1.1.49 1.1 1.1 0 .61-.49 1.1-1.1 1.1-.61 0-1.1-.49-1.1-1.1 0-.61.49-1.1 1.1-1.1ZM70.68 26V8.72h2.508v8.064l7.236-8.064h3.12L75.9 17.156 84.108 26h-3.216l-7.704-8.256V26H70.68Z" fill="#59C49E"/><path d="M7.5 26v-2.412a5.83 5.83 0 0 1-2.556-.108 5.344 5.344 0 0 1-2.172-1.2c-.632-.576-1.132-1.32-1.5-2.232-.368-.912-.552-1.976-.552-3.192 0-1.224.184-2.292.552-3.204.368-.92.868-1.672 1.5-2.256a5.397 5.397 0 0 1 2.172-1.224A5.598 5.598 0 0 1 7.5 10.04V8.72h2.496v1.32a5.54 5.54 0 0 1 2.544.132c.816.232 1.54.64 2.172 1.224.64.584 1.144 1.336 1.512 2.256.376.912.564 1.98.564 3.204 0 1.216-.188 2.28-.564 3.192-.368.912-.872 1.656-1.512 2.232a5.243 5.243 0 0 1-2.172 1.2 5.77 5.77 0 0 1-2.544.108V26H7.5Zm0-4.74v-8.928c-.72-.112-1.348-.064-1.884.144a3.046 3.046 0 0 0-1.308.972c-.344.432-.6.944-.768 1.536a6.743 6.743 0 0 0-.252 1.872c0 .656.084 1.276.252 1.86a4.23 4.23 0 0 0 .768 1.5c.344.416.78.72 1.308.912.536.192 1.164.236 1.884.132Zm2.496 0c.72.104 1.344.06 1.872-.132a2.987 2.987 0 0 0 1.308-.912c.352-.416.612-.908.78-1.476a6.208 6.208 0 0 0 .264-1.824 6.45 6.45 0 0 0-.264-1.848 4.47 4.47 0 0 0-.78-1.56 3.062 3.062 0 0 0-1.308-1.008c-.528-.224-1.152-.28-1.872-.168v8.928ZM17.519 26l5.616-17.28h3.612L32.363 26H29.76l-5.172-15.768h.648L20.123 26H17.52Zm2.916-3.9v-2.352h9.024V22.1h-9.024Zm14.08 3.9V8.72H41.5c.168 0 .376.008.624.024.248.008.484.032.708.072.96.152 1.76.48 2.4.984a4.632 4.632 0 0 1 1.452 1.908c.32.768.48 1.616.48 2.544 0 .936-.16 1.788-.48 2.556a4.632 4.632 0 0 1-1.452 1.908c-.64.504-1.44.832-2.4.984a9.13 9.13 0 0 1-.72.072 9.857 9.857 0 0 1-.612.024h-4.476V26h-2.508Zm2.509-8.58h4.38c.16 0 .336-.008.528-.024.2-.016.388-.044.564-.084.512-.12.924-.34 1.236-.66.312-.328.536-.704.672-1.128a4.032 4.032 0 0 0 0-2.532 2.806 2.806 0 0 0-.672-1.116c-.312-.328-.724-.552-1.236-.672a3.072 3.072 0 0 0-.564-.096 6.398 6.398 0 0 0-.528-.024h-4.38v6.336ZM49.563 26V8.72h2.268l6.264 12.996L64.323 8.72h2.292v17.268h-2.376v-11.82L58.659 26h-1.14l-5.592-11.832V26h-2.364Z" fill="#fff"/></svg>
+                    </a>
+                    <a href="mailto:pharmcompass@yandex.ru" class="footer__link text-white text-decoration-none">pharmcompass@yandex.ru</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copy">
+            <div class="container">
+                <p class="text-center">© Фармкомпас 2023 Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

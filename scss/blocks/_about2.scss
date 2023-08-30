@@ -1,0 +1,32 @@
+.about2 {
+    padding-top: 75px;
+    &__title {
+        padding-bottom: 23px;
+    }
+    .text-on-die {
+        filter: none;
+        margin-top: 65px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        .compass-icon {
+            bottom: 0;
+            top: auto;
+            transform: translate(-50%, 50%);
+        }
+    }
+    .columns-with-icons {
+        padding-top: 150px;
+        margin: -75px 20px 0 20px;
+        background-color: $gray;
+        border-radius: 10px;
+        &__item-text {
+            span {
+                font-weight: 600;
+                color: $title-color;
+                span {
+                    color: $second-accent;
+                }
+            }
+        }
+    }
+}

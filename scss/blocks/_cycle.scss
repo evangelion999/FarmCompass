@@ -1,0 +1,46 @@
+.cycle {
+    padding: 75px 0 107px 0;
+    background-color: #fff;
+    &__title {
+        padding-bottom: 23px;
+    }
+    &__list {
+        padding-top: 57px;
+    }
+    &__col {
+        &:nth-child(2) {
+            transform: translateX(80px);
+        }
+        &:nth-child(4) {
+            transform: translateX(-90px);
+        }
+        &:nth-child(2), &:nth-child(4) {
+            margin-top: 145px;
+        }
+        &:nth-child(5), &:nth-child(6) {
+            margin-top: 45px;
+        }
+    }
+    &__list-item {
+        img {
+            padding-bottom: 15px;
+        }
+    }
+    &__item-text {
+        color: $title-color;
+        @include adaptiv-font(22, 17);
+        font-weight: 700;
+        line-height: 140%;
+        padding-bottom: 6px;
+    }
+    &__item-postscript {
+        font-size: 13px;
+        line-height: 140%;
+        max-width: 324px;
+    }
+    &__img {
+        max-width: 390px;
+        top: 57%;
+        left: 50%;
+    }
+}

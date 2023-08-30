@@ -1,0 +1,20 @@
+.about {
+    background-color: $gray;
+    padding: 220px 0 120px 0;
+    margin: -151px 20px 0 20px;
+    z-index: 3;
+    border-radius: 10px;
+    &__purpose {
+        margin-bottom: 92px;
+        h2 {
+            padding-bottom: 29px;
+        }
+        p {
+            max-width: 950px;
+            margin: 0 auto;
+        }
+    }
+    &__advant {
+        background-color: #fff;
+    }
+}

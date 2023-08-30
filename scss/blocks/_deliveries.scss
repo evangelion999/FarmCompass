@@ -1,0 +1,99 @@
+.deliveries {
+    background-color: $gray;
+    padding-top: 80px;
+
+    &__medicines-table {
+        margin-top: 60px;
+    }
+    &__table-row {
+        display: flex;
+        justify-content: space-between;
+        filter: drop-shadow(0px 30px 50px rgba(62, 89, 108, 0.10));
+        padding: 30px 30px 30px 0;
+        background-color: #fff;
+        border-radius: 5px;
+        &:not(:last-child) {
+            margin-bottom: 5px;
+        }
+    }
+    &__row-title {
+        color: $title-color;
+        font-weight: 700;
+        @include adaptiv-font(28, 20);
+        line-height: 140%;
+        &::before {
+            content: '';
+            display: inline-block;
+            background-color: $first-accent-light;
+            margin-right: 35px;
+            width: 15px;
+            height: 20px;
+        }
+    }
+    &__row-items-wrap {
+        width: 740px;
+        gap: 10px;
+    }
+    &__row-item {
+        padding: 18px 0 18px 20px;
+        border-radius: 5px;
+        background-color: $gray;
+        width: 240px;
+        transition: 0.25s;
+        svg {
+            fill: $second-accent;
+            margin-right: 15px;
+            transition: 0.25s;
+        }
+        p {
+            color: $title-color;
+            font-weight: 600;
+            text-transform: uppercase;
+            transition: 0.25s;
+        }
+        &:hover {
+            background-color: $second-accent;
+            svg {
+                fill: #fff;
+            }
+            p {
+                color: #fff;
+            }
+        }
+    }
+
+    .addit-medicines {
+        padding: 65px 99px 80px 50px;
+        > p:first-child {
+            font-size: 22px;
+            line-height: 140%;
+        }
+        &__list {
+            max-width: 1000px;
+            gap: 10px;
+            &-item {
+                border-radius: 5px;
+                border: 3px solid #fff;
+                padding: 16px 17px;
+                transition: 0.25s;
+                p {
+                    color: $title-color;
+                    font-weight: 600;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    transition: 0.25s;
+                }
+                &:hover {
+                    border-color: $first-accent-light;
+                    p {
+                        color: $first-accent-light;
+                    }
+                }
+            }
+        }
+    }
+
+    .text-on-die {
+        padding: 45px 62px 45px 62px;
+    }
+}

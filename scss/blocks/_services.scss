@@ -1,0 +1,61 @@
+.services {
+    background-color: $gray;
+    padding: 80px 0 120px 0;
+    margin: 0 20px;
+    border-radius: 10px;
+    &__title {
+        left: 50%;
+    }
+    &__link {
+        right: 0;
+    }
+    &__text {
+        padding-top: 30px;
+        max-width: 1090px;
+        margin: 0 auto;
+    }
+    &__medication-list {
+        margin-top: 53px;
+        .col {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+    &__medication-item {
+        border-radius: 5px;
+        background-color: #fff;
+        padding: 20px 0 18px 30px;
+        transition: 0.25s;
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+        p {
+            display: flex;
+            align-items: center;
+            color: $title-color;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            transition: 0.25s;
+            &::before {
+                content: '';
+                display: inline-block;
+                background-color: $first-accent-light;
+                border-radius: 50%;
+                width: 6px;
+                height: 6px;
+                margin-right: 20px;
+                transition: 0.25s;
+            }
+        }
+        &:hover {
+            background-color: $second-accent;
+            p {
+                color: #fff;
+                &::before {
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+}

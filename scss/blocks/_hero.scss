@@ -1,0 +1,22 @@
+.hero {
+    background-image: url('/img/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -90px;
+    &__img {
+        top: 90px;
+        right: -160px;
+    }
+    &__title {
+        color: $title-color;
+        @include adaptiv-font(100, 53);
+        font-weight: 500;
+        line-height: 120%;
+        padding: 212px 0 158px 0;
+        z-index: 3;
+        span {
+            padding-left: 215px;
+        }
+    }
+}

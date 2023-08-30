@@ -1,0 +1,33 @@
+.requisites {
+    padding: 80px 0 65px 0;
+    background-color: $gray;
+    &__table {
+        width: 100%;
+        margin-top: 60px;
+    }
+    td {
+        padding: 18px 0 20px 0;
+        &:first-child {
+            width: 48%;
+            padding-left: 30px;
+        }
+        &:last-child {
+            width: 52%;
+        }
+    }
+    tr {
+        &:nth-child(odd) {
+            background-color: #fff;
+        }
+    }
+    &__cell-title, &__cell-text {
+        font-size: 16px;
+    }
+    &__cell-title {
+        font-weight: 600;
+    }
+    &__cell-text {
+        color: $title-color;
+        font-weight: 500;
+    }
+}

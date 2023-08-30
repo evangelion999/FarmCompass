@@ -1,0 +1,39 @@
+.contacts {
+    padding: 75px 0 88px 0;
+    &__title {
+        padding-bottom: 54px;
+    }
+    &__col {
+        &:nth-child(1) {
+            transform: translateX(65px);
+            .contacts__col-text {
+                font-size: 20px;
+            }
+        }
+        &:nth-child(3) {
+            transform: translateX(-65px);
+        }
+    }
+    &__col-icon {
+        background-color: $first-accent-light;
+        width: 90px;
+        height: 90px;
+        margin-bottom: 16px;
+        svg {
+            transform: scale(2);
+            fill: #fff;
+        }
+    }
+    &__col-title {
+        color: $title-color;
+        @include adaptiv-font(22, 19);
+        font-weight: 700;
+        line-height: 140%;
+        padding-bottom: 6px;
+    }
+    &__col-text {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 140%;
+    }
+}

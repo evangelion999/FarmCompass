@@ -1,0 +1,14 @@
+.columns-with-icons {
+    padding: 80px 0px 75px 0px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 30px 50px rgba(62, 89, 108, 0.10));
+    h2 {
+        padding-bottom: 70px;
+    }
+    &__item-icon {
+        padding-bottom: 20px;
+    }
+    &__item-title {
+        padding-bottom: 15px;
+    }
+}

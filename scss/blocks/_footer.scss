@@ -1,0 +1,23 @@
+.footer {
+    background-color: #fff;
+    &__die {
+        background-color: $first-accent-dark;
+        padding: 65px 0;
+        border-radius: 10px;
+        margin: -76px 20px 0 20px;
+    }
+    .logo {
+        left: 50%;
+    }
+    &__link {
+        font-size: 15px;
+        line-height: 140%;
+        border-bottom: 1px dashed rgb(255, 255, 255, 0.3);
+    }
+    &__copy {
+        font-size: 15px;
+        line-height: 140%;
+        padding: 50px 0;
+        opacity: 0.5;
+    }
+}
