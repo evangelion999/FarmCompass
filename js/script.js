@@ -1,3 +1,11 @@
+//Запрет на скроллинг при открытии моб. меню
+const burgerMenuBtn = document.querySelector('.header__burger-btn');
+
+burgerMenuBtn.addEventListener('click', function() {
+    document.body.classList.toggle('_overflowy-hidden');
+});
+
+//Слайдеры (swiper)
 const productSlider1 = new Swiper('.product-slider__thumbs', {
     slidesPerView: 4,
     direction: 'vertical',
