@@ -45,6 +45,9 @@ body {
   overflow-x: hidden;
   color: #3E596C;
 }
+body._overflowy-hidden {
+  overflow-y: hidden;
+}
 
 ul {
   list-style-type: none;
